@@ -21,7 +21,7 @@ from main.models import Task, TaskAssignment, Employee, EmployeeConfirmation, Is
 
 from django.db import IntegrityError
 
-bot_token = '6506062843:AAGpYawnf_z79cicA-JVzUo18c7mRZw9KFE'
+bot_token = '6686182784:AAHa9r4tVJ6IQBRSPhlykrxPw9QzeahXxB0'
 bot = telebot.TeleBot(bot_token)
 
 states = {}
