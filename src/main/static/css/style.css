@@ -1,0 +1,380 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+/* commit */
+header {
+  height: 500px;
+  background-color: #3400ff;
+}
+
+nav {
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+
+}
+
+.nav-item {
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-item-active {
+  background-color: white;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-weight: 400;
+  color: #5532df;
+
+}
+
+.logo {
+  margin: 20px;
+
+}
+
+.header-text {
+  color: #fff;
+  margin-left: 60px;
+  float: left;
+  font-size: 25px;
+}
+
+.header-image {
+  float: right;
+
+}
+
+.companies {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.company-items {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-left: 30px;
+
+
+}
+
+.api-heading {
+  font-weight: 800;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+
+}
+
+.cards {
+  margin-left: 90px;
+  margin-trim: 20px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.card {
+  width: 20%;
+  height: 250px;
+  background-color: transparent;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+
+
+}
+
+.card-active {
+  width: 20%;
+  height: 250px;
+  background-color: transparent;
+  margin-right: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px rgb(226, 217, 217);
+  padding: 10px;
+  border-radius: 15px;
+  
+}
+
+.card-logo {
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
+.card-head {
+  color: black;
+  margin-top: 30px;
+  margin-left: 30px;
+
+}
+
+.card-head-active {
+  color: black;
+  margin-top: 30px;
+  margin-left: 30px;
+   
+}
+
+.card-body {
+  color: black;
+  font-size: 15px;
+  margin-left: 30px;
+
+}
+
+.card:hover {
+  box-shadow: 0px 0px 15px rgb(226, 217, 217);
+}
+.card-active:hover {
+  box-shadow: 0px 0px 5px rgb(76, 49, 251);
+}
+
+.blog-heading {
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 800;
+
+
+}
+
+.blog-cards {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: row;
+  height: 287px;
+  width: 45%;
+  
+}
+
+.blog-content {
+ 
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: column; 
+   box-shadow: 0px 0px 10px rgb(209, 195, 195);
+  border-radius: 0px 10px 10px 0px;
+  background-color: transparent;
+
+}
+
+
+
+.blog-card-bottom-image {
+  filter: drop-shadow(0px 0px 10px rgb(206, 196, 196));
+
+
+} 
+
+h6 {
+  color: blue;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.author-button {
+  margin-left: 30px;
+  display: flex;
+  margin-top: 70px;
+}
+
+.blog-author {
+  margin-top: 5px;
+  margin-left : 5px;
+}
+
+.blog-box:hover {
+  cursor: pointer;
+  color: rgb(27, 27, 244);
+} 
+
+
+
+
+.faq-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  background-color: #e9edff;
+  height: 300px;
+}
+
+.faq-content {
+  width: 45%;
+  margin-left: 90px;
+  
+  
+
+}
+
+.faq-section h4 {
+  margin-bottom: 20px;
+  
+}
+
+
+.faq-section h2 {
+  margin-top: 30px;
+  font-size: 32px;
+}
+
+
+.faq-image {
+  width: 45%;
+  height: 300px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+
+
+}
+
+
+.button-faq-section {
+  padding: 2px 5px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 5px 0px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.download-section {
+  margin-left: 90px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+
+.download-email {
+  margin-right: 90px;
+  
+  
+
+
+}
+
+.button-email {
+  background-color:blueviolet;
+  padding: 3px 15px ;
+  color: #ffffff;
+  font-size: 20px;
+  border:none;
+  border-radius: 0px 20px 20px 0px;
+  
+  position: absolute;
+  right: 90px;
+}
+
+
+.form-download-email {
+  background-color: #e9edff;
+  padding: 3px 15px ;
+  font-size: 20px;
+  border-radius: 20px 0px 0px 20px;
+  color: black;
+  border:none;
+  position: absolute;
+  right: 221px;
+
+}
+
+
+
+
+
+
+
+.footer-section {
+  
+  background-color: #3400ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+.footer-left {
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 40%;
+
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.list-items{
+  padding: 20px;
+}
+
+.footer-right {
+  margin-right: 90px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  
+}
+
+.logos-list {
+  
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.list-items:hover{
+  transition-duration: 0.3s;
+  color: #ffffff;
+  
+}

@@ -1,0 +1,4 @@
+django==4.2.7
+pyTelegramBotAPI==4.14.0
+
+telebot~=0.0.5

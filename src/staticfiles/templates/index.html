@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница компании</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav-item">Главная</a>
+            <a class="nav-item">APIs</a>
+            <a class="nav-item">Блоги</a>
+            <a class="nav-item">Форумы</a>
+            <a class="nav-item">Вход</a>
+            <a class="nav-item-active">Регистрация</a>
+            <svg class="nav-item" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85903 8.24401L11.816 11.321L11.815 11.322C11.991 11.4877 12.0614 11.7369 11.9982 11.9703C11.9349 12.2036 11.7483 12.3831 11.5127 12.4372C11.2771 12.4914 11.0308 12.4113 10.872 12.229L7.89103 9.12901C7.04998 9.72236 6.04531 10.0397 5.01603 10.037C2.66419 10.0372 0.627975 8.40344 0.118589 6.10743C-0.390797 3.81142 0.763438 1.46979 2.89472 0.475412C5.02599 -0.518963 7.56198 0.100953 8.99418 1.96641C10.4264 3.83187 10.3702 6.44192 8.85903 8.24401ZM8.44412 3.59725C7.86941 2.21135 6.51636 1.3082 5.01603 1.30901C2.9693 1.31231 1.31123 2.97128 1.30903 5.01801C1.30903 6.51834 2.21291 7.8709 3.59912 8.44487C4.98532 9.01883 6.58078 8.70114 7.64139 7.63996C8.702 6.57878 9.01883 4.98314 8.44412 3.59725Z" fill="white"/>
+            </svg>
+        </nav>
+        <div >
+            <img class="logo" src="{% static 'images/Logo.png' %}" >
+        </div>
+        <div class="header-text">
+            <img src="{% static 'images/Rectangle_12.png' %}">
+            <h2>
+                Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+
+        <!-- Изображение -->
+        <div>
+            <img class="header-image" src="{% static 'images/IMAGE HERE.png' %}">
+        </div>
+    </header>
+    <!-- Компании -->
+    <div class="companies">
+        <a href="#" class="company-items">Компания Один</a>
+        <a href="#" class="company-items">Компания Два</a>
+        <a href="#" class="company-items">Компания Три</a>
+    </div>
+
+    <!-- Раздел API -->
+    <div class="api">
+        <h1 class="api-heading">APIs <br> по категориям</h1>
+    <!-- Карты -->
+        <div class="cards">
+            <!-- Карта 01 -->
+            <div class="card-active">
+                <img class="card-logo" src="{% static 'images/Group 97.png' %}">
+                <h3 class="card-head-active">Идентификация и <br> Безопасность</h3>
+                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+            </div>
+            <!-- Карта 02 -->
+            <div class="card">
+                <img class="card-logo" src="{% static 'images/Group 98.png' %}">
+                <h3 class="card-head">Данные и <br> Аналитика</h3>
+                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+            </div>
+            <!-- Карта 03 -->
+            <div class="card">
+                <img class="card-logo" src="{% static 'images/Group 99.png' %}">
+                <h3 class="card-head">Коммерческие</h3>
+                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+            </div>
+            <!-- Карта 04 -->
+            <div class="card">
+                <img class="card-logo" src="{% static 'images/Group 100.png' %}">
+                <h3 class="card-head">Предложения и <br> Льготы</h3>
+                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+            </div>
+            <!-- Карта 05 -->
+            <div class="card">
+                <img class="card-logo" src="{% static 'images/Group 101.png' %}">
+                <h3 class="card-head">Способы <br> Оплаты</h3>
+                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Раздел блога -->
+
+    <div class="blog-heading">
+            <h1>Последние <br> статьи в блоге</h1>
+    </div>
+        <!-- Блоги -->
+    <div class="blog-cards">
+            <!-- Карта блога 01 -->
+        <div class="blog-card">
+                <div class="blog-image">
+                    <img src="{% static 'images/Rectangle.png' %}" alt="" >
+                </div>
+                <div class="blog-box">
+                <div class="blog-content">
+                    <h6 >06 Aug 2019</h6>
+                    <h3 >Индивидуальная <br> программа лояльности</h3>
+                    <small>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br> consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet</small>
+                </div>
+                <div class="author-button">
+                <div class="blog-bottom">
+                    <img class="blog-card-bottom-image" src="{% static 'images/IMAGE HERE (2).png' %}" alt="">
+                </div>
+                <div class="blog-author">
+                    <b class="blog-author">Бобби Вагнер</b>
+                </div>
+                </div>
+                </div>
+
+            </div>
+
+            <!-- Карта блога 02 -->
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <img src="{% static 'images/Rectangle Copy.png' %}" alt="" >
+                </div>
+                <div class="blog-box">
+                <div class="blog-content">
+                    <h6 >08 Aug 2019</h6>
+                    <h3 >Путешествие с легкостью</h3>
+                    <small>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br> consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet</small>
+                </div>
+                <div class="author-button">
+                <div class="blog-bottom">
+                    <img class="blog-card-bottom-image" src="{% static 'images/IMAGE HERE (2).png' %}" alt="">
+                </div>
+                <div class="blog-author">
+                    <b class="blog-author">Глория Грэм</b>
+                </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- РАЗДЕЛ FAQ -->
+        <div class="faq-section">
+            <div class="faq-content">
+                <h2>У вас <br> есть вопросы</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique mollitia <br>nam animi exercitationem et eum enim nulla veritatis,</h4>
+                <h4>Есть вопросы по каким-либо вопросам?</h4>
+
+                <button class="button-faq-section" >Свяжитесь с нами</button>
+            </div>
+            <div class="faq-image">
+                <img src="{% static 'images/Rectangle_38-2 (1).png' %}" alt="">
+            </div>
+        </div>
+
+        <!-- Загрузка -->
+        <div class="download-section">
+            <div class="download-content">
+                <h1>Загрузка <span> Теперь</span></h1>
+            </div>
+            <div class="download-email">
+                <form >
+                    <input class="form-download-email" placeholder="Введите ваш адрес электронной почты"/>
+                    <button class="button-email">Загрузить</button>
+                  </form>
+            </div>
+        </div>
+
+        <!-- Футер -->
+        <div class="footer-section">
+            <div class="footer-left">
+                <img class="footer-logo"src="{% static 'images/Logo.png' %}" alt="">
+                <ul class="list">
+                    <li class="list-items">@lopem ipsum</li>
+                    <li class="list-items">Главная</li>
+                    <li class="list-items">APIs</li>
+                    <li class="list-items">Блоги</li>
+                    <li class="list-items">Форумы</li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-right">
+                    <img class="footer-logos" src="{% static 'images/Group 102.png' %}" alt="">
+                    <img class="footer-logos" src="{% static 'images/Group 103.png' %}" alt="">
+                    <img class="footer-logos" src="{% static 'images/Group 104.png' %}" alt="">
+                </div>
+                <ul class="logos-list">
+                    <li class="list-items">FAQ</li>
+                    <li class="list-items">Бизнес</li>
+                    <li class="list-items">Помощь</li>
+                </ul>
+            </div>
+
+        </div>
+</body>
+</html>
